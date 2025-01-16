@@ -9,7 +9,7 @@ import java.awt.event.ItemListener;
 import java.util.ArrayList;
 import javax.swing.*;
 
- class VintageShoes {
+ public class VintageShoes {
 
     // GUI-Komponenten
     private JFrame frmSchuhShop;
