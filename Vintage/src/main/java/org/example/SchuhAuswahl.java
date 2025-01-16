@@ -1,5 +1,7 @@
+package src.main.java.org.example;
+
 public class SchuhAuswahl {
-    class Auswahl {
+
         private String art;
         private String marke;
         private String farbe;
@@ -7,7 +9,7 @@ public class SchuhAuswahl {
         private boolean leder;
         private double preis;
 
-        public Auswahl(String art, String marke, String farbe, double groesse, boolean leder, double preis) {
+        public SchuhAuswahl(String art, String marke, String farbe, double groesse, boolean leder, double preis) {
             this.art = art;
             this.marke = marke;
             this.farbe = farbe;
@@ -16,7 +18,7 @@ public class SchuhAuswahl {
             this.preis = preis;
         }
 
-        public String getArt () {
+        public String getArt() {
             return art;
         }
 
@@ -24,12 +26,12 @@ public class SchuhAuswahl {
             return marke;
         }
 
-        public String getFarbe () {
+        public String getFarbe() {
             return farbe;
         }
 
 
-        public double getGroeße () {
+        public double getGroeße() {
             return groesse;
         }
 
@@ -46,4 +48,4 @@ public class SchuhAuswahl {
 
 
 
-}
+
