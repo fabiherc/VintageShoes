@@ -1,7 +1,8 @@
-Vintage Schuh Shop
-Dieses Projekt ist eine Java-Anwendung die es Benutzern ermöglicht, Vintage-Schuhe zu verwalten, zu suchen und auszuwählen. Die Anwendung bietet eine benutzerfreundliche Oberfläche, in der Benutzer verschiedene Marken und Arten, sowie Größen und Vegane varianten von Schuhen auswählen können.
+Unser Vintage Schuh Shop
+
+Dieses Projekt ist eine Anwendung die es Benutzern ermöglicht, Vintage-Schuhe zu verwalten und zu suchen. Die Anwendung bietet eine Benutzeroberfläche, in der Benutzer verschiedene Marken und Arten, sowie Größen und Vegane varianten von Schuhen auswählen, einfügen und zur suche Filtern können.
 
 Projektbeschreibung
-Die Anwendung konzentriert sich auf die Auswahl von Schuhmarken und -arten. Der Benutzer kann eine Marke aus einer Dropdown-Liste auswählen, und die Anwendung aktualisiert automatisch die verfügbaren Schuharten, die mit dieser Marke verbunden sind.
 
-Das Projekt verwendet das JUnit-Framework, um sicherzustellen, dass die Funktionalität der Anwendung durch Unit-Tests überprüft wird. Diese Tests helfen dabei, die Integrität der Anwendung zu gewährleisten und etwaige Fehler frühzeitig zu identifizieren.
+Der Benutzer kann seine eigenen Schuhe der Anwendung Hinzufügen und die Anwendung integriert automatisch die ausgewählte Schuhart in einer Array List und gibt sie auf dem Textfeld wieder aus.
+Zusätzlich kann der Bediener im Feld maximalpreis sein Budget eingeben, die ausgewählten Artikel werden aus der Array List rausgesucht und im Textfeld passend ausgegeben. 
